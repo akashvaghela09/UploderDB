@@ -46,6 +46,8 @@ router.post("/login", async (req, res) => {
             if(result == true){
                 let data = {
                     response: true,
+                    name: user.name,
+                    email: user.email,
                     message: "User Authenticated Successfully"
                 }
                 return res.status(200).json({data})
