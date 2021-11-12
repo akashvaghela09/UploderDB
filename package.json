@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/server.js"
   },
   "name": "backend",
   "version": "1.0.0",

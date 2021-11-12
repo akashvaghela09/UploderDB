@@ -1,5 +1,5 @@
-const  { app} = require("./src/index")
-const  { connect } = require("./src/config/db")
+const  { app} = require("./index")
+const  { connect } = require("./config/db")
 require("dotenv").config();
 const PORT = 2244
 
